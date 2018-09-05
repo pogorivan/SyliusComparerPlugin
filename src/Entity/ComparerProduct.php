@@ -9,13 +9,13 @@ use Sylius\Component\Core\Model\ProductInterface;
 class ComparerProduct implements ComparerProductInterface
 {
     /** @var int */
-    private $id;
+    protected $id;
 
     /** @var ComparerInterface */
-    private $comparer;
+    protected $comparer;
 
     /** @var ProductInterface */
-    private $product;
+    protected $product;
 
     public function getId(): ?int
     {

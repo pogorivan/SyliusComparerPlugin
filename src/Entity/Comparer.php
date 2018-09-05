@@ -12,16 +12,16 @@ use Sylius\Component\Core\Model\ShopUserInterface;
 class Comparer implements ComparerInterface
 {
     /** @var int */
-    private $id;
+    protected $id;
 
     /** @var ArrayCollection */
-    private $comparerProducts;
+    protected $comparerProducts;
 
     /** @var ShopUserInterface */
-    private $shopUser;
+    protected $shopUser;
 
     /** @var string|null */
-    private $token;
+    protected $token;
 
     public function __construct()
     {
