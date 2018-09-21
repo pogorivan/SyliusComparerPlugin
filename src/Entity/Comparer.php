@@ -115,7 +115,7 @@ class Comparer implements ComparerInterface
         return (string) $this->token;
     }
 
-    public function setToken(string $token): void
+    public function setToken(?string $token): void
     {
         $this->token = $token;
     }

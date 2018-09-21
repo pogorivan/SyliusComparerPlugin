@@ -29,7 +29,7 @@ interface ComparerInterface extends ResourceInterface
 
     public function getToken(): string;
 
-    public function setToken(string $token): void;
+    public function setToken(?string $token): void;
 
     public function getShopUser(): ShopUserInterface;
 
